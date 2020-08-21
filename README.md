@@ -38,4 +38,9 @@ Materials Used :
   Here is the schematics of the following project:-  
   
   # Usage 
-  This project ca
+  This project can be a future to more and more inovative toys. the ultrasonic sensor is a really a very sensitive sensor and can be used in modification to different gadgets.
+  
+  # Credits 
+  
+ * Trevor Tomesh - for explaining the whole subject so well.
+ * Alex - For the prictical knowledge we got from you.
