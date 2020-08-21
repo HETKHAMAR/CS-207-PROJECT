@@ -13,3 +13,29 @@ This repository contains the Following content:-
 * /img - The images of the schematics and 3d design of the project 
 * /LICENSE - The license file. 
 * /README.md - A short summury of this repository.
+
+# Requirements and Materials 
+The following new librariy was used by this project:
+
+* NewPing_v1.9.1 : This library is used to get access to the ultrasonic sensor
+
+Materials Used :
+  * 1x Bread board 
+  * Jumper wires 
+  * 1x Ultrasonic Sensor 
+  * 1x Servo motor
+  * 2x panels of battries 
+  * 1x motor driver 
+  * 1x Arduino Uno
+  * 4x DC motors 
+  * 4x tires 
+  * 1x HC- 05 Bluetooth module 
+  
+  # Design and Schematics
+  This is a 3D design for this project. It is also included in images folder.
+  we will have two of each because for obstical avoiding car we have different circuit and different one for bluetooth car.
+  
+  Here is the schematics of the following project:-  
+  
+  # Usage 
+  This project ca
