@@ -1,10 +1,10 @@
 
 /*
  * Name -  HET KHAMAR
- * STUDENT ID - 200424199
+ 
  * 
  * NAME - OM MAJITHIA 
- * STUDENT ID - 200424199
+ * 
  * 
  * 
  * THIS IS OUR MODE 2 FOR THIS PROJECT AND NEED A ADDITIONAL LIBRARY TO run this and upload it 
