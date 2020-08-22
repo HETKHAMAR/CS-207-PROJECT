@@ -37,10 +37,8 @@ Materials Used :
   This One is for Ultrasonic One 
   ![image](https://user-images.githubusercontent.com/68714309/90944440-f79fa800-e3db-11ea-95be-8a43364f1d79.png)
   
-  This one is for Bluetooth Controlled diagram 
-  
-  
-  Here is the schematics of the following project:-  
+  This one is for Bluetooth Controlled diagram :-
+  ![image](https://user-images.githubusercontent.com/68714309/90944608-ffac1780-e3dc-11ea-9b98-e8cc4afca50b.png)
   
   # Usage 
   This project can be a future to more and more inovative toys. the ultrasonic sensor is a really a very sensitive sensor and can be used in modification to different gadgets.
