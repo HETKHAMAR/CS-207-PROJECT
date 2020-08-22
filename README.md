@@ -6,10 +6,10 @@ The project is based on the working of a car on its own with dectecting the obst
 # Repository Contents
 
 This repository contains the Following content:- 
-* /src - Scratch code for this project.
+* /Base code - The code given by the refrence.
 * /hardware - Final build of the hardware of the project 
-* /Final built - The final code for this project.
-* /libraries - their is a new library used that is new ping library.
+* /Bluetooth control code - So this is the code for First mode(Smartphone controlled)
+* /libraries - their is a new library used that is new ping library(for second mode ultrasonic car).
 * /img - The images of the schematics and 3d design of the project 
 * /LICENSE - The license file. 
 * /README.md - A short summury of this repository.
