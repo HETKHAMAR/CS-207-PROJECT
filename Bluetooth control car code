@@ -1,0 +1,65 @@
+/* THIS CODE IS FOR THE BLUETOOTH CONTROLLED CAR 
+*
+**
+**
+**All the resourses for this project : https://youtu.be/vyZwYuF-wi0 all the refrences are taken from here 
+* and the base code is from here : -  http://bit.ly/2VexQ99
+**
+**
+**
+**
+*/
+// START OF THE CODE 
+char t;
+void setup() {
+pinMode(4,OUTPUT);   //left motors forward
+pinMode(5,OUTPUT);   //left motors reverse
+pinMode(6,OUTPUT);   //right motors forward
+pinMode(7,OUTPUT);   //right motors reverse
+Serial.begin(9600);
+ 
+}
+ 
+void loop() {
+if(Serial.available()){
+  t = Serial.read();
+  Serial.println(t);
+}
+ 
+if(t == '1'){            //move forward(all motors rotate in forward direction)
+  digitalWrite(4,HIGH);
+  digitalWrite(5,LOW);
+  digitalWrite(6,HIGH);
+  digitalWrite(7,LOW);
+}
+ 
+else if(t == '2'){      //move reverse (all motors rotate in reverse direction)
+  digitalWrite(4,LOW);
+  digitalWrite(5,HIGH);
+  digitalWrite(6,LOW);
+  digitalWrite(7,HIGH);
+}
+ 
+else if(t == '3'){      //turn right (left side motors rotate in forward direction, right side motors doesn't rotate)
+  digitalWrite(6,LOW);
+  digitalWrite(7,HIGH);
+  digitalWrite(4,HIGH);
+  digitalWrite(5,LOW);
+}
+ 
+else if(t == '4'){      // turn left (right side motors rotate in forward direction, left side motors doesn't rotate)
+  digitalWrite(6,HIGH);
+  digitalWrite(7,LOW);
+  digitalWrite(4,LOW);
+  digitalWrite(5  ,HIGH);
+}
+ 
+else if(t == '5'){      //STOP (makes all the motors to stop)
+  digitalWrite(4,LOW);
+  digitalWrite(5,LOW);
+  digitalWrite(6,LOW);
+  digitalWrite(7,LOW);
+}
+delay(100);
+}
+// END OF THE CODE 
