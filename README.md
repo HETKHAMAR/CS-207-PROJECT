@@ -34,6 +34,11 @@ Materials Used :
   # Design and Schematics
   This is a 3D design for this project. It is also included in images folder.
   we will have two of each because for obstical avoiding car we have different circuit and different one for bluetooth car.
+  This One is for Ultrasonic One 
+  ![image](https://user-images.githubusercontent.com/68714309/90944440-f79fa800-e3db-11ea-95be-8a43364f1d79.png)
+  
+  This one is for Bluetooth Controlled diagram 
+  
   
   Here is the schematics of the following project:-  
   
